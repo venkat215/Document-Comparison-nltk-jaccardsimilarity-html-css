@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="..\img\ib_img.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="..\css\style.css" />
+    <title>Diff - Instabase</title>
+    
+    <style>
+        
+        @media (min-width:600px) {
+        body {
+            font-size: 16px;
+            line-height: 150%
+        }
+        }
+            
+        @media (min-width:800px) {
+        body {
+            font-size: 18px;
+        }
+        }
+        
+        @media (min-width:1000px) {
+        body {
+            /* Never get larger than this */
+            font-size: 12.5px;
+        }
+        }
+             
+        body {background-color : white; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             margin: 0;
+            padding: 0;}
+        
+        .empty_div {height: 10px;}
+        
+        #nav_bar {background-color: rgb(45, 62, 80);
+                    bottom: 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 60px;
+                    align-items: center;
+                    }
+        
+        .logo_name_wrap {display: flex;
+                        align-items: center;
+                        justify-content: space-between;}
+        
+        .nav_bar_img {align-items: center;
+                    text-align: center;
+                    padding-right: 10px}
+        
+        .nav_img_link {text-align: center;}
+        
+        .logo_img {height: 60px;}
+        
+        .website_title {font-family: sans-serif;
+                        font-size: 40px;
+                        color: rgb(255, 255, 255); 
+                        font-weight: bold}
+        
+        .nav_bar_list {padding-left: 0;
+                        text-align: center;
+                        display: inline;
+                    }
+        
+        .nav_bar_list_item {text-align: center;
+            display: inline;
+            font-size : 20px}
+        
+        .nav_link, .nav_link_current {
+            padding-right: 10px;
+            text-decoration: none;
+            text-align: center;
+            color: rgb(190, 190, 190)}
+        
+        .nav_link_current {font-size: inherit}
+        
+        .nav_link:hover, .nav_link_current {text-decoration: underline;
+                                    font-size: larger;
+                                    font-variant: small-caps;}
+        
+        .nav_link_current {color: rgb(255, 255, 255);}
+        
+        #home #content {display: block;
+                        text-align: justify}
+        
+        .segregation {display: flex;
+                 align-content: space-between}
+        
+        .left, .right {display: block;
+                        width: 50%;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        margin-left: 25px;
+                        margin-right: 25px;}
+        
+        .addition {background-color: rgb(131, 223, 112)}
+        .negation {background-color:  rgb(255, 201, 191)}
+        .value {background-color: rgb(205, 241, 255)}
+        
+        #title_left, #title_right {text-align: center;
+                                    font-style: italic}
+
+        .seg_title {text-align: center;
+                    font-weight: bold;
+                    background-color: rgb(220, 220, 220)}
+    
+    </style>
+    
+    
+    
+    
+    
+    
+</head>
+<body>
+
+    <div id="home">
+
+        <div id="nav_bar">
+
+            <div class="logo_name_wrap">
+
+                <div class="nav_bar_img"><a class="nav_img_link" href="https://www.instabase.com/" target="_blank"><img class="logo_img" src="..\img\ib_img.jpg" alt="Logo"></a></div>
+                <div class="website_title">INSTABASE DIFF</div>
+            
+            </div>
+
+            <div class="nav_bar_list_div">
+             
+                <ul class="nav_bar_list"> 
+                    
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://www.instabase.com/" target="_blank">Home</a></li>
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://www.instabase.com/about/" target="_blank">About</a></li>
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://www.instabase.com/docs/index.html" target="_blank">Tutorials and Docs</a></li>
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://support.instabase.com/hc/en-us/requests/new" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="content">
+            
+            <div class="empty_div"></div>
+            <div class="empty_div"></div>
+
+		    <div class="seg_title">HEADER SECTION - TEXT AND EXTRACTED VALUES</div>
+
+                <div id="headers" class="segregation">
+
+                    <div id="header_left" class="left">
+                        ***header_text***
+                    </div>
+
+                    <div id="header_right" class="right">
+                        ***header_vals***
+                    </div>
+
+                </div>
+            
+            <div class="seg_title">TRANSACTION SECTION - TEXT AND EXTRACTED VALUES</div>
+
+                <div id="transactions" class="segregation">
+
+                    <div id="t_left" class="left">
+                        ***t_left***
+                    </div>
+
+                    <div id="t_right" class="right">
+                        ***t_right***
+                    </div>
+
+                </div>
+
+            <div class="seg_title">CLAUSE COMPARISON</div>
+
+                <div id="titles" class="segregation">
+
+                    <div id="title_left" class="left">
+                        <b>ORIGINAL</b>
+                    </div>
+    
+                    <div id="title_right" class="right">
+                        <b>FROM CLIENT</b>
+                    </div>
+
+                </div>
+
+                <div id="clause_bt" class="segregation">
+                    
+                    <div id="cbt_left" class="left">
+                        ***cbt_left***
+                    </div>
+
+                    <div id="cbt_right" class="right">
+                        ***cbt_right***
+                    </div>
+
+                </div>
+
+                <div id="clause_at" class="segregation">
+
+                    <div id="cat_left" class="left">
+                        ***cat_left***
+                    </div>
+
+                    <div id="cat_right" class="right">
+                        ***cat_right***
+                    </div>
+                
+                </div>
+        
+        </div>
+
+    </div>
+</body>
+</html>

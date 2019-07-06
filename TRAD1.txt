@@ -1,0 +1,141 @@
+MT799 16/05/19 sample    OP   
+           2021  AUTH ST: T. AGREED                                            
+ SENDER: sample                                                              
+   20 TRANSACTION REFERENCE NUMBER                                             
+      sample                                                        
+   21 RELATED REFERENCE                                                        
+      NONREF                                                                   
+   79 NARRATIVE                                                                
+      DATE: 16-MAY-2019                                                        
+      FACILITY NAME: LC REFINANCING                                            
+      .                                                                        
+      ATTENTION :  sample                                   
+      LOANS DEPT., SCB sample                                               
+      .                                                                        
+      WE REQUEST YOU, IN YOUR SOLE AND ABSOLUTE                                
+ DISCRETION, TO EXTEND TO US A LOAN OF            
+ sample (PRINCIPAL AMOUNT)               
+ FOR sample FROM DRAWDOWN DATE AT 6 MONTH LIBOR 
+ PLUS 155 BPS P.A.                                
+ AT OUR RISK AND RESPONSIBILITY AND               
+ FOR OUR ACCOUNT.                                 
+ .                                                
+ WE CONFIRM THAT THE PRINCIPAL AMOUNT EXTENDED    
+ BY YOU TO US WILL BE USED TO FINANCE THE         
+ FOLLOWING UNDERLYING TRADE TRANSACTIONS OF OUR   
+ CUSTOMER, AND THAT WE HAVE NOT OBTAINED,         
+ AND WILL NOT FOR SO LONG AS ANY PART OF THE      
+ PRINCIPAL AMOUNT DRAWN UNDER THIS FACILITY       
+ REMAINS OUTSTANDING, OBTAIN FINANCING            
+IN RESPECT OF THESE UNDERLYING TRADE               
+TRANSACTIONS FROM ANY OTHER FINANCIAL INSTITUTION  
+.                                                  
+THE DETAILS OF THE UNDERLYING TRANSACTIONS ARE     
+GIVEN BELOW:                                       
+NARRATIVE                                          
+1) LC REF. NO.: sample                  
+AMOUNT: sample              
+LC EXPIRY DATE: sample                      
+BILLS MATURITY DATE: sample                
+SHIPMENT DATE: sample                       
+NAME OF IMPORTER:sample     
+ADDRESS OF IMPORTER: sample                  
+NAME OF EXPORTER:sample                                
+ADDRESS OF EXPORTER:sample                   
+DESCRIPTION OF GOODS:sample
+COUNTRY OF ORIGIN OF GOODS:sample            
+PORT OF LOADING:EVYAP SEAPORT, sample          
+PORT OF DISCHARGE:sample
+2) LC REF. NO.:sample               
+AMOUNT: sample          
+LC EXPIRY DATE: sample                      
+BILLS MATURITY DATE: sample                 
+SHIPMENT DATE:sample                     
+NAME OF IMPORTER:Esample 
+ADDRESS OF IMPORTER: sample                 
+NAME OF EXPORTER:sample      
+DESCRIPTION OF GOODS:sample                                     
+PORT OF LOADING:sample               
+PORT OF DISCHARGE:sample
+.                                                  
+PLEASE CREDIT THE PRINCIPAL AMOUNT TO OUR USD      
+ACCOUNT NO. 3582058387001 BIC CODE: SCBLUS33 FOR   
+VALUE DATE 21-MAY-2019.                            
+.                                                  
+WE CONFIRM THAT WE HAVE OBTAINED ALL RELEVANT      
+APPROVALS WHICH WE MAY REQUIRE TO OBTAIN SUCH      
+FINANCING, INCLUDING FROM THE RELEVANT CENTRAL     
+BANK IF APPLICABLE, FOR THE RELEVANT TENOR AND TO  
+ALLOW REPAYMENT HEREUNDER TAKING INTO ACCOUNT,     
+AMONGST OTHER THINGS THE REPAYMENT IN THE RELEVANT
+CURRENCY.                                           
+ WE HEREBY IRREVOCABLY AGREE AND UNDERTAKE TO PAY    
+ YOU AS PER YOUR INSTRUCTIONS ON 07-NOV-2019         
+ (MATURITY DATE) THE PRINCIPAL AMOUNT AND INTEREST   
+ (PLUS ANY OTHER CHARGES ADVISED BY YOU) WITHOUT     
+ ANY DEDUCTION, WITHHOLDING, SET-OFF OR              
+ COUNTERCLAIM FOR OR IN RESPECT OF ANY TAXES,        
+ DUTIES OR LEVIES OF ANY KIND OR FOR ANY OTHER       
+ AMOUNTS WHATSOEVER (THE ''DEDUCTIONS''). IF ANY     
+ DEDUCTIONS ARE MANDATORY BY LAW,THEN WE UNDERTAKE   
+ NARRATIVE                                           
+ TO                                                  
+ (I) MAKE SUCH DEDUCTIONS,                           
+ (II)PAY SUCH DEDUCTIONS AS PROVIDED BY APPLICABLE   
+  LAW,                                                
+ (III) INCREASE THE AMOUNT TO BE PAID TO YOU SO       
+ THAT AFTER MAKING ANY SUCH DEDUCTIONS, THE AMOUNT    
+ RECEIVED BY YOU IS EQUAL TO THE AMOUNT YOU WOULD     
+ HAVE RECEIVED IF SUCH DEDUCTIONS WERE NOT MADE,      
+ AND                                                  
+ (IV)INDEMNIFY YOU FOR ANY TAXES, DUTIES OR LEVIES    
+  PAID BY OR ASSESSED ON YOU (IN RESPECT OF FEES      
+ PAYABLE TO YOU) AS A RESULT OF YOUR ACCEPTANCE OF    
+ THIS REQUEST.                                        
+ IN THE EVENT OF NON-PAYMENT OF ALL OR PART OF THE    
+ PRINCIPAL AMOUNT OR INTEREST ACCRUED THEREON ON      
+ THE MATURITY DATE,DEFAULT INTEREST WILL ACCRUE ON    
+ THE UNPAID AMOUNT AT THE DEFAULT INTEREST RATE OF    
+  (3 PCT OVER AND ABOVE THE ORIGINAL INTEREST RATE)      
+  FROM THE MATURITY DATE TO THE DATE OF ACTUAL           
+  PAYMENT (BOTH BEFORE AND AFTER JUDGMENT). ANY          
+  DEFAULT INTEREST SHALL BE IMMEDIATELY PAYABLE ON       
+  YOUR DEMAND.                                           
+  WE CONFIRM THAT WE HAVE RAISED THE APPROPRIATE         
+  LIABILITY IN OUR BOOKS TO REFLECT OUR OBLIGATION       
+  TO PAY YOU ON THE MATURITY DATE.                       
+  .                                                      
+  THE RIGHTS AND OBLIGATIONS THAT ARE ASSUMED BY YOU     
+  AND US AS A RESULT OF THIS REQUEST AND OF THE          
+  RIGHTS AND OBLIGATIONS ASSUMED BY YOU AND US BY        
+  VIRTUE OF YOUR ACCEPTANCE OF THIS REQUEST WILL BE      
+  GOVERNED BY SINGAPORE LAW AND WE HEREBY SUBMIT
+TO THE NON-EXCLUSIVE JURISDICTION OF THE COURTS        
+ OF SINGAPORE.                                          
+ NARRATIVE                                              
+ YOU MAY DISCLOSE SUCH INFORMATION PROVIDED BY US       
+ OR RELATING TO US TO:                                  
+ (A) YOUR (HOLDING COMPANY), HEAD OFFICE,               
+ SUBSIDIARIES,SUBSIDIARIES OF YOUR HOLDING COMPANY      
+ ,AFFILIATES, REPRESENTATIVE AND BRANCH OFFICES IN      
+  ANY JURISDICTION (TOGETHER WITH YOU, THE              
+ ''PERMITTED PARTIES'')                                 
+ (B) SERVICE PROVIDERS OR PROFESSIONAL ADVISORS OF      
+ THE PERMITTED PARTIES WHO ARE UNDER A DUTY OF          
+ CONFIDENTIALITY TO THE PERMITTED PARTIES               
+ (C) ANY ACTUAL OR POTENTIAL PARTICIPANT,               
+ SUB-PARTICIPANT,ASSIGNEE OR TRANSFEREE OF YOUR     
+ RIGHTS OR OBLIGATIONS UNDER ANY TRANSACTION        
+ BETWEEN YOU AND US (OR ANY AGENT OR ADVISER OF ANY 
+  OF THE FOREGOING)                                 
+ (D) ANY RATING AGENCY, INSURER OR INSURANCE BROKER 
+ OR DIRECT OR INDIRECT PROVIDER OF CREDIT           
+ PROTECTION OR                                      
+ (E) AS REQUIRED BY LAW OR REGULATION OR ANY        
+ GOVERNMENT,QUASI-GOVERNMENT, ADMINISTRATIVE,       
+ REGULATORY OR SUPERVISORY BODY OR AUTHORITY,COURT  
+ OR TRIBUNAL.                                       
+ .                                                  
+ THANKS AND REGARDS                                 
+ .                                                  
+sample

@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="..\img\ib_img.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="..\css\style.css" />
+    <title>Diff - Instabase</title>
+    
+    <style>
+        
+        @media (min-width:600px) {
+        body {
+            font-size: 16px;
+            line-height: 150%
+        }
+        }
+            
+        @media (min-width:800px) {
+        body {
+            font-size: 18px;
+        }
+        }
+        
+        @media (min-width:1000px) {
+        body {
+            /* Never get larger than this */
+            font-size: 12.5px;
+        }
+        }
+             
+        body {background-color : white; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             margin: 0;
+            padding: 0;}
+        
+        .empty_div {height: 10px;}
+        
+        #nav_bar {background-color: rgb(45, 62, 80);
+                    bottom: 5%;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 60px;
+                    align-items: center;
+                    }
+        
+        .logo_name_wrap {display: flex;
+                        align-items: center;
+                        justify-content: space-between;}
+        
+        .nav_bar_img {align-items: center;
+                    text-align: center;
+                    padding-right: 10px}
+        
+        .nav_img_link {text-align: center;}
+        
+        .logo_img {height: 60px;}
+        
+        .website_title {font-family: sans-serif;
+                        font-size: 40px;
+                        color: rgb(255, 255, 255); 
+                        font-weight: bold}
+        
+        .nav_bar_list {padding-left: 0;
+                        text-align: center;
+                        display: inline;
+                    }
+        
+        .nav_bar_list_item {text-align: center;
+            display: inline;
+            font-size : 20px}
+        
+        .nav_link, .nav_link_current {
+            padding-right: 10px;
+            text-decoration: none;
+            text-align: center;
+            color: rgb(190, 190, 190)}
+        
+        .nav_link_current {font-size: inherit}
+        
+        .nav_link:hover, .nav_link_current {text-decoration: underline;
+                                    font-size: larger;
+                                    font-variant: small-caps;}
+        
+        .nav_link_current {color: rgb(255, 255, 255);}
+        
+        #home #content {display: block;
+                        text-align: justify}
+        
+        .segregation {display: flex;
+                 align-content: space-between}
+        
+        .left, .right {display: block;
+                        width: 50%;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+                        margin-left: 25px;
+                        margin-right: 25px;}
+        
+        .addition {background-color: rgb(131, 223, 112)}
+        .negation {background-color:  rgb(255, 201, 191)}
+        .value {background-color: rgb(205, 241, 255)}
+        
+        #title_left, #title_right {text-align: center;
+                                    font-style: italic}
+
+        .seg_title {text-align: center;
+                    font-weight: bold;
+                    background-color: rgb(220, 220, 220)}
+    
+    </style>
+    
+    
+    
+    
+    
+    
+</head>
+<body>
+
+    <div id="home">
+
+        <div id="nav_bar">
+
+            <div class="logo_name_wrap">
+
+                <div class="nav_bar_img"><a class="nav_img_link" href="https://www.instabase.com/" target="_blank"><img class="logo_img" src="..\img\ib_img.jpg" alt="Logo"></a></div>
+                <div class="website_title">INSTABASE DIFF</div>
+            
+            </div>
+
+            <div class="nav_bar_list_div">
+             
+                <ul class="nav_bar_list"> 
+                    
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://www.instabase.com/" target="_blank">Home</a></li>
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://www.instabase.com/about/" target="_blank">About</a></li>
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://www.instabase.com/docs/index.html" target="_blank">Tutorials and Docs</a></li>
+                    <li class="nav_bar_list_item"><a class="nav_link" href="https://support.instabase.com/hc/en-us/requests/new" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="content">
+            
+            <div class="empty_div"></div>
+            <div class="empty_div"></div>
+
+		    <div class="seg_title">HEADER SECTION - TEXT AND EXTRACTED VALUES</div>
+
+                <div id="headers" class="segregation">
+
+                    <div id="header_left" class="left">
+                        MT799 30/05/18 BIDVVNVXAXXX 957 SA 957040002242 15128370009181 OP<br>1957 AUTH ST: T. AGREED<br>SENDER: JOINT STOCK COMMERCIAL BANK FOR INVESTMENT AND DEVELOPMENT OF VIETNAM<br>(HEAD OFFICE)<br>HANOI<br>20 TRANSACTION REFERENCE NUMBER<br>15128370009181<br>79 NARRATIVE<br>TRANSACTION REF: 15128370009181<br>DATE: 30MAY2018<br>TO: STANDARD CHARTERED BANK (SINGAPORE) LIMITED<br>TRADE ADVANCES<br>
+                    </div>
+
+                    <div id="header_right" class="right">
+                        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>FIELD NAME</th>
+      <th>VALUE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>30MAY2018TO</td>
+    </tr>
+    <tr>
+      <td>MT799</td>
+      <td>30/05/18 BIDVVNVXAXXX 957 SA 957040002242 15128370009181 OP 1957 AUTH ST: T. AGREED</td>
+    </tr>
+    <tr>
+      <td>SENDER</td>
+      <td>JOINT STOCK COMMERCIAL BANK FOR INVESTMENT AND DEVELOPMENT OF VIETNAM (HEAD OFFICE) HANOI 20</td>
+    </tr>
+    <tr>
+      <td>Transaction Reference Number</td>
+      <td>15128370009181 TRANSACTION REF: 15128370009181</td>
+    </tr>
+    <tr>
+      <td>[Standard Chartered Bank]</td>
+      <td>STANDARD CHARTERED BANK (SINGAPORE) LIMITED TRADE ADVANCES</td>
+    </tr>
+  </tbody>
+</table><br><br>Missing Fields: [['Related Reference Number', 'Related Reference', 'Related Ref'], ['[FACILITY NAME]', 'REQUEST FOR'], ['ATTENTION']]
+                    </div>
+
+                </div>
+            
+            <div class="seg_title">TRANSACTION SECTION - TEXT AND EXTRACTED VALUES</div>
+
+                <div id="transactions" class="segregation">
+
+                    <div id="t_left" class="left">
+                        NON LC TRANSACTIONS<br>INVOICE NUMBER: SZ-JMH-180008<br>REFERENCE NUMBER: 15128370009181<br>INVOICE CURRENCY AND AMOUNT: USD 63,886.17<br>DUE DATE: 01NOV2018<br>TENOR: 150 DAYS<br>NARRATIVE<br>DESCRIPTION OF GOODS: COLD ROLLED STAINLESS STEEL<br>COIL-PRIME<br>COUNTRY OF ORIGIN OF GOODS: CHINA<br>PORT OF LOADING: SHEKOU, SHENZHEN, CHINA<br>PORT OF DISCHARGE: HAI PHONG PORT, VIETNAM<br>NAME OF IMPORTER: HOANG ANH VIET NAM EXPORT IMPORT<br>JSC<br>NAME OF EXPORTER: INTEXPORT<br>ADDRESS OF IMPORTER: FRUIT GARDEN A KIEU KY<br>COMMUNE GIA LAM DIST, HANOI, VIETNAM<br>ADDRESS OF EXPORTER: FLAT/RM 1635 16/F STAR HOUSE<br>NO.3 SALISBURY ROAD TSIM SHA TSUI KLN, HONG KONG<br>SHIPMENT DATE: 04MAY2018<br><br>
+                    </div>
+
+                    <div id="t_right" class="right">
+                        <b>TRANSACTION_1</b><br><br><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>FIELD NAME</th>
+      <th>VALUE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Address of Exporter</td>
+      <td>FLAT/RM 1635 16/F STAR HOUSE NO.3 SALISBURY ROAD TSIM SHA TSUI KLN, HONG KONG</td>
+    </tr>
+    <tr>
+      <td>Address of Importer</td>
+      <td>FRUIT GARDEN A KIEU KY COMMUNE GIA LAM DIST, HANOI, VIETNAM</td>
+    </tr>
+    <tr>
+      <td>Country of Origin of Goods</td>
+      <td>CHINA</td>
+    </tr>
+    <tr>
+      <td>Description of Goods</td>
+      <td>COLD ROLLED STAINLESS STEEL COIL-PRIME</td>
+    </tr>
+    <tr>
+      <td>Due date</td>
+      <td>01NOV2018</td>
+    </tr>
+    <tr>
+      <td>Invoice CURRENCY AND AMOUNT</td>
+      <td>USD 63,886.17</td>
+    </tr>
+    <tr>
+      <td>Invoice Number</td>
+      <td>SZ-JMH-180008 REFERENCE NUMBER: 15128370009181</td>
+    </tr>
+    <tr>
+      <td>Name of Exporter</td>
+      <td>INTEXPORT</td>
+    </tr>
+    <tr>
+      <td>Name of Importer</td>
+      <td>HOANG ANH VIET NAM EXPORT IMPORT JSC</td>
+    </tr>
+    <tr>
+      <td>Port of Discharge</td>
+      <td>HAI PHONG PORT, VIETNAM</td>
+    </tr>
+    <tr>
+      <td>Port of Loading</td>
+      <td>SHEKOU, SHENZHEN, CHINA</td>
+    </tr>
+    <tr>
+      <td>Shipment Date</td>
+      <td>04MAY2018</td>
+    </tr>
+    <tr>
+      <td>Tenor</td>
+      <td>150 DAYS</td>
+    </tr>
+  </tbody>
+</table><br><br>Missing Field(s): [['NON LC EXPIRY DATE', 'LC EXPIRY DATE', 'EXPIRY DATE']]<br><br>
+                    </div>
+
+                </div>
+
+            <div class="seg_title">CLAUSE COMPARISON</div>
+
+                <div id="titles" class="segregation">
+
+                    <div id="title_left" class="left">
+                        <b>ORIGINAL</b>
+                    </div>
+    
+                    <div id="title_right" class="right">
+                        <b>FROM CLIENT</b>
+                    </div>
+
+                </div>
+
+                <div id="clause_bt" class="segregation">
+                    
+                    <div id="cbt_left" class="left">
+                        we refer to the <span class="negation">above</span> <span class="negation">mentioned</span> facility <span class="negation">.</span> we request you , in your sole and absolute discretion , to extend to us a loan of <span class="value">[ total currency and amount ( principal amount ) ]</span> for <span class="value">[ number of days ]</span> from drawdown date at <span class="value">[ applicable libor / sibor plus ___ bps p.a. , ]</span> at our risk and responsibility and for our account <span class="negation">.</span> we confirm that the principal amount extended by you to us will be used to finance the following underlying trade transactions of our customer , and that we have not obtained , and will not for so long as any part of the principal amount drawn under this facility remains outstanding , obtain financing in respect of these underlying trade transactions from any other financial institution .<br><br><br>
+                    </div>
+
+                    <div id="cbt_right" class="right">
+                        we refer to the <span class="addition">abovementioned</span> facility we request you , in your sole and absolute discretion , to extend to us a loan of<span class="value"> usd63,826.17 </span>for<span class="value"> 150 days </span>from drawdown date <span class="addition">04jun2018</span> at<span class="value"> libor </span>at<span class="addition"> </span>6<span class="addition"> </span>month<span class="addition"> </span><span class="addition">+ </span>0.8pct<span class="addition"> </span>p.a<span class="addition"> </span>min<span class="addition"> </span>usd100at our risk and responsibility and for our account we confirm that the principal amount extended by you to us will be used to finance the following underlying trade transactions of our customer , and that we have not obtained , and will not for so long as any part of the principal amount drawn under this facility remains outstanding , obtain financing in respect of these underlying trade transactions from any other financial institution .<br><br><br>
+                    </div>
+
+                </div>
+
+                <div id="clause_at" class="segregation">
+
+                    <div id="cat_left" class="left">
+                        please credit the principal amount <span class="negation">to</span> <span class="negation">our</span> for value <span class="value">[ amount ]</span> on <span class="value">[ date ]</span> using the following instruction : <span class="value">[ instruction ]</span> <span class="negation">.</span> we confirm that we have obtained all relevant approvals which we may require to obtain such financing , including from the relevant central bank if applicable , for the relevant tenor and to allow repayment hereunder taking into account , amongst other things the repayment in the relevant currency , we hereby irrevocably agree and undertake to pay you as per your instructions on <span class="value">[<span class="negation"> </span>insert<span class="negation"> </span>due date of<span class="negation"> </span>payment<span class="negation"> </span>]</span> ( maturity date ) the principal amount and interest , <span class="value">[ plus any other charges advised by you ]</span> , without any deduction , withholding , set-off or counterclaim for or in respect of any taxes , duties or levies of any kind or for any other amounts whatsoever ( the <span class="negation">``</span> deductions <span class="negation">''</span> ) .<br><br><br>if any deductions are mandatory by law , then we undertake to ( i ) make such deductions , ( ii ) pay such deductions as provided by applicable law , ( iii ) increase the amount to be paid to you so that after making any such deductions , the amount received by you is equal to the amount you would have received if such deductions were not made , and ( iv ) indemnify you for any taxes , duties or levies paid by or assessed on you <span class="value">[ in respect of fees payable to you ]</span> as a result of your acceptance of this request <span class="negation">.</span> in the event of non-payment of all or part of the principal amount or interest accrued thereon on the maturity date , default interest will accrue on the unpaid amount at the default interest rate of <span class="value">[ insert rate ]</span> from the maturity date to the date of actual payment ( both before and after judgment ) .<br><br><br>any default interest shall be immediately payable on your demand <span class="negation">.</span> we confirm that we have raised the appropriate liability in our books to reflect our obligation to pay you on the maturity date <span class="negation">.</span> the rights and obligations that are assumed by you and us as a result of this request and of the rights and obligations assumed by you and us by virtue of your acceptance of this request will be governed by english law of and we hereby submit to the non exclusive jurisdiction of the courts of <span class="value">[ england ]</span> <span class="negation">.</span> you may disclose such information provided by us or relating to us to : <span class="negation">a</span> <span class="negation">)</span> your <span class="value">[ holding company ]</span> , head office , subsidiaries , subsidiaries of your holding company , affiliates , representative and branch offices in any jurisdiction ( together with you , the <span class="negation">``</span> permitted parties <span class="negation">''</span> ) <span class="negation">;</span> b ) service providers or professional advisors of the permitted parties who are under a duty of confidentiality to the permitted parties <span class="negation">;</span> c ) any actual or potential participant , sub-participant , assignee or transferee of your rights or obligations under any transaction between you and us ( or any agent or adviser of any of the foregoing ) <span class="negation">;</span> d ) any rating agency , insurer or insurance broker , or direct or indirect provider of credit protection or e ) as required by law or regulation or any government , quasi-government , administrative , regulatory or supervisory body or authority , court or tribunal .<br><br><br>please confirm as soon as possible .<br><br><br>thank you <span class="negation">.</span><br><br><br><span class="negation">option1*** please credit the principal amount to [specify account details of exporter] for value [insert date].</span><br><br><br><span class="negation">please debit our loan account with you for the principal amount.</span><br><br><br>
+                    </div>
+
+                    <div id="cat_right" class="right">
+                        please credit the principal amount for value <span class="addition">usd63,826.17</span> on<span class="value"> 04jun2018 </span>using the following instruction : <span class="addition">f21:9121fobc0105418</span> <span class="addition">f57a</span> <span class="addition">:</span> <span class="addition">pnbpus3nnyc</span> <span class="addition">f58a</span> <span class="addition">:</span> <span class="addition">/2000191009086</span> <span class="addition">bobihkhh</span> <span class="addition">narrative</span> we confirm that we have obtained all relevant approvals which we may require to obtain such financing , including from the relevant central bank if applicable , for the relevant tenor and to allow repayment hereunder taking into account , amongst other things the repayment in the relevant currency , we hereby irrevocably agree and undertake to pay you as per your instructions on<span class="value"> 01nov2018 </span>( maturity date ) the principal amount and interest ,<span class="value"> ( plus any other charges advised by you ) </span>, without any deduction , withholding , set-off or counterclaim for or in respect of any taxes , duties or levies of any kind or for any other amounts whatsoever ( the deductions ) .<br><br><br>if any deductions are mandatory by law , then we undertake to ( i ) make such deductions , ( ii ) pay such deductions as provided by applicable law , ( iii ) increase the amount to be paid to you so that after making any such deductions , the amount received by you is equal to the amount you would have received if such deductions were not made , and ( iv ) indemnify you for any taxes , duties or levies paid by or assessed on you<span class="value"> ( in respect of fees payable to you ) </span>as a result of your acceptance of this request <span class="addition">(</span> <span class="addition">to</span> <span class="addition">be</span> <span class="addition">continue</span> <span class="addition">our</span> <span class="addition">mt799</span> <span class="addition">ref</span> <span class="addition">15128370009181</span> <span class="addition">)</span> <span class="addition">(</span> <span class="addition">continue</span> <span class="addition">our</span> <span class="addition">mt799</span> <span class="addition">ref</span> <span class="addition">15128370009181</span> <span class="addition">)</span> in the event of non-payment of all or part of the principal amount or interest accrued thereon on the maturity date , default interest will accrue on the unpaid amount at the default interest rate of<span class="value"> 150pct of applied interest rate </span>from the maturity date to the date of actual payment ( both before and after judgment ) .<br><br><br>any default interest shall be immediately payable on your demand we confirm that we have raised the appropriate liability in our books to reflect our obligation to pay you on the maturity date the rights and obligations that are assumed by you and us as a result of this request and of the rights and obligations assumed by you and us by virtue of your acceptance of this request will be governed by english law of and we hereby submit to the non exclusive jurisdiction of the courts of <span class="addition">(</span> england <span class="addition">)</span> <span class="addition">narrative</span> you may disclose such information provided by us or relating to us to : your <span class="addition">(</span> holding company <span class="addition">)</span> , head office , subsidiaries , subsidiaries of your holding company , affiliates , representative and branch offices in any jurisdiction ( together with you , the permitted parties ) <span class="addition">,</span> b ) service providers or professional advisors of the permitted parties who are under a duty of confidentiality to the permitted parties <span class="addition">,</span> c ) any actual or potential participant , sub-participant , assignee or transferee of your rights or obligations under any transaction between you and us ( or any agent or adviser of any of the foregoing ) <span class="addition">,</span> d ) any rating agency , insurer or insurance broker , or direct or indirect provider of credit protection <span class="addition">,</span> or e ) as required by law or regulation or any government , quasi-government , administrative , regulatory or supervisory body or authority , court or tribunal .<br><br><br>please confirm as soon as possible .<br><br><br>thank you <span class="addition">and</span> <span class="addition">kind</span> <span class="addition">regards</span> <span class="addition">,</span><br><br><br>
+                    </div>
+                
+                </div>
+        
+        </div>
+
+    </div>
+</body>
+</html>
